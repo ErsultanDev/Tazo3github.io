@@ -1,0 +1,65 @@
+//main: ..//style.less
+.b3 {
+    padding: 90px 0;
+    background: url(.././images/dest/b3bg.jpg);
+    background-position: center;
+
+    .b3_wrapper {
+        text-align: center;
+        width: 900px;
+        margin: 0 auto;
+
+        h2 {
+            text-transform: uppercase;
+            font-size: 26px;
+            font-weight: 700;
+            color: #46C1C9;
+        }
+
+        .b3_img {
+            width: 600px;
+            margin: 0 auto;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        p {
+            margin: 50px 0;
+            font-size: 24px;
+            font-weight: 300;
+        }
+    }
+}
+
+@media screen and(max-width:966px) {
+    .b3 {
+        .b3_wrapper {
+            width: 700px;
+        }
+    }
+}
+
+@media screen and(max-width:425px) {
+    .b3 {
+        padding: 30px 0;
+
+        .b3_wrapper {
+            width: auto;
+            padding: 0 30px;
+
+            h2 {
+                font-size: 17px;
+            }
+
+            p {
+                font-size: 17px;
+            }
+
+            .b3_img {
+                width: auto;
+            }
+        }
+    }
+}
