@@ -36,7 +36,52 @@
         margin: 30px auto;
     }
 }
+.price {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 73px;
+    left: 81px;
 
+
+    .price_text {
+        color: #000;
+        font-size: 32px;
+    }
+
+    .newPrice {
+        font-size: 65px;
+        color: #fff;
+        font-weight: 700;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .price {
+        bottom: 63px;
+        left: 67px;
+        .price_text{
+            font-size: 25px;
+        }
+    }
+}
+
+@media screen and (max-width:425px) {
+    .price {
+        bottom: 31px;
+        left: 30px;
+
+        .price_text {
+
+            font-size: 22px;
+        }
+
+        .newPrice {
+            font-size: 33px;
+
+        }
+    }
+}
 @media screen and(max-width:375px) {
     .form {
 
